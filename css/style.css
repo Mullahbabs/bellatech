@@ -738,7 +738,8 @@
 .testimonial .owl-carousel.testimonial-carousel .testimonial-item .testimonial-content {
     position: relative;
     border-radius: 10px;
-    background: var(--bs-light);
+    color: aliceblue;
+    background: var(--bs-secondary);
 }
 
 .testimonial .owl-carousel.testimonial-carousel .testimonial-item .testimonial-content::after {
@@ -749,7 +750,7 @@
     bottom: -20px;
     left: 30px;
     transform: rotate(45deg);
-    background: var(--bs-light);
+    background: var(--bs-primary);
     z-index: -1;
 }
 
