@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>cybersecurity - BellaTECH</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-secondary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-primary px-5 d-none d-lg-block">
+            <div class="row gx-0 align-items-center">
+                <div class="col-lg-5 text-center text-lg-start mb-lg-0">
+                    <div class="d-flex">
+                        <a href="#" class="text-muted me-4"><i class="fas fa-envelope text-secondary me-2"></i>bellahteck@gmail.com</a>
+                        <a href="#" class="text-muted me-0"><i class="fas fa-phone-alt text-secondary me-2"></i>+234 816 054 9506</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 row-cols-1 text-center mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center" style="height: 45px;">
+                        <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href=""><i class="fab fa-twitter fw-normal text-secondary"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href=""><i class="fab fa-facebook-f fw-normal text-secondary"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal text-secondary"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href=""><i class="fab fa-instagram fw-normal text-secondary"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-square rounded-circle" href=""><i class="fab fa-youtube fw-normal text-secondary"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center text-lg-end">
+                    <div class="d-inline-flex align-items-center" style="height: 45px;">
+                        <a href="#" class="text-muted me-2"> Help</a><small> / </small>
+                        <a href="#" class="text-muted mx-2"> Support</a><small> / </small>
+                        <a href="#" class="text-muted ms-2"> Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid nav-bar p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="display-5 text-secondary m-0">Bella<span class="text-primary">TECH</span></h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="service.html" class="nav-item nav-link active">Services</a>
+                        <a href="training.html" class="nav-item nav-link">Projects</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link" data-bs-toggle="dropdown"><span class="dropdown-toggle">Scroll Assist</span></a>
+                            <div class="dropdown-menu m-0">
+                                <a href="#netsec" class="scroll-to-section dropdown-item">Network Security</a>
+                                <a href="#endsec" class="scroll-to-section dropdown-item">End point Security</a>
+                                <a href="#appsec" class="scroll-to-section dropdown-item">Application Security</a>
+                                <a href="#csec" class="scroll-to-section dropdown-item">Cloud Security</a>
+                                <a href="#idsec " class="scroll-to-section dropdown-item">identity &amp; Access Management (IAM)</a>
+                                <a href="#datsec" class="scroll-to-section dropdown-item">Data Security</a>
+                                <a href="#opsec" class="scroll-to-section dropdown-item">Operational Security (OpSec)</a>
+                                <a href="#insec" class="scroll-to-section dropdown-item">Incidence Response &amp; Recovery</a>
+                                <a href="#iotsec" class="scroll-to-section dropdown-item">Internet of things (IoT) Security</a>
+                                <a href="#crisec" class="scroll-to-section dropdown-item">Critical Infrastructure Security</a>
+                                <a href="#custom" class="scroll-to-section dropdown-item">Hire A Professional</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <button class="btn btn-primary btn-md-square border-secondary mb-3 mb-md-3 mb-lg-0 me-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
+                    <a href="" class="btn btn-primary border-secondary rounded-pill py-2 px-4 px-lg-3 mb-3 mb-md-3 mb-lg-0">Get A Quote</a>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h4 class="modal-title text-secondary mb-0" id="exampleModalLabel">Search by keyword</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb">
+            <div class="container text-center py-5" style="max-width: 900px;">
+                <h3 class="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">cybersecurity</h1>
+                <ol class="breadcrumb justify-content-center text-white mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                    <li class="breadcrumb-item"><a href="index.html" class="text-white">Home</a></li>
+                    <li class="breadcrumb-item"><a href="service.html" class="text-white">Services</a></li>
+                    <li class="breadcrumb-item active text-secondary">cybersecurity</li>
+                </ol>    
+            </div>
+        </div>
+        <!-- Header End -->
+
+        <!-- About Start -->
+        <section class="section" id="aabout"> 
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
+                        <div class="bg-light rounded">
+                            <img src="img/bf.png" class="img-fluid w-100" style="margin-bottom: -7px;" alt="Image">
+                            
+                        </div>
+                    </div>
+                    <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
+                        <h5 class="sub-title pe-3">Service Category</h5>
+                        <h1 class="display-5 mb-4">cybersecurity</h1>
+                        <p class="mb-4">In today’s digital era, where the internet and technology are woven into every aspect of life, 
+                            cybersecurity stands as the cornerstone of safety and trust in the virtual world. Cybersecurity encompasses 
+                            the practices, technologies, and strategies designed to protect systems, networks, and data from unauthorized 
+                            access, disruption, theft, or damage. As cyber threats evolve and increase in sophistication, the importance of 
+                            robust and adaptive cybersecurity cannot be overstated. 
+                        </p>
+                        <p class="mb-4">Modern organizations operate in a highly interconnected environment, where sensitive data is constantly 
+                            exchanged across networks, devices, and applications. From financial transactions and personal communications to government 
+                            operations and healthcare services, digital systems handle critical information that is attractive to cybercriminals.
+                        </p>      
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!-- About End -->
+
+
+        <!-- Services Start -->
+        <section class="section" id="aservices">
+        <div class="container-fluid service overflow-hidden pt-5">
+            <div class="container py-5">
+                <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="sub-style">
+                        <h5 class="sub-title text-primary px-3">Service Category</h5>
+                    </div>
+                    <h1 class="display-5 mb-4">Different types and categories of Cybersecurity</h1>
+                    <p class="mb-0">The field of cybersecurity is diverse and dynamic, addressing a variety of 
+                        needs through specialized disciplines such as network security, cloud security, endpoint 
+                        security, and IoT security. These areas cater to specific vulnerabilities and ensure that 
+                        every layer of an organization's digital ecosystem is fortified. The different types of 
+                        cybersecurity are as follows
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item">
+                            <div class="service-inner">
+                                <div class="service-img">
+                                    <img src="img/b2c.jpg" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                                <div class="service-title">
+                                    <div class="service-title-name">
+                                        <div class="bg-primary text-center scroll-to-section rounded p-3 mx-5 mb-4">
+                                            <a href="#netsec" class="h4 text-white mb-0">Network Security</a>
+                                        </div>
+                                        <a class="btn bg-light text-secondary scroll-to-section rounded-pill py-3 px-5 mb-4" href="#netsec">More</a>
+                                    </div>
+                                    <div class=" pb-4">
+                                        <div class="px-4" style="text-align: left;">
+                                            <p class="mb-4">
+                                            </p>
+                                            <p class="mb-4">
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item">
+                            <div class="service-inner">
+                                <div class="service-img">
+                                    <img src="img/b2b.png" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                                <div class="service-title">
+                                    <div class="service-title-name">
+                                        <div class="bg-primary text-center scroll-to-section rounded p-3 mx-5 mb-4">
+                                            <a href="#endsec" class="h4 text-white mb-0">Endpoint Security</a>
+                                        </div>
+                                        <a class="btn bg-light text-secondary scroll-to-section rounded-pill py-3 px-5 mb-4" href="#endsec">More</a>
+                                    </div>
+                                    <div class=" pb-4">
+                                        <div class="px-4" style="text-align: left;">
+                                            <p class="mb-4">
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item">
+                            <div class="service-inner">
+                                <div class="service-img">
+                                    <img src="img/c2c.png" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                                <div class="service-title">
+                                    <div class="service-title-name">
+                                        <div class="bg-primary text-center scroll-to-section rounded p-3 mx-5 mb-4">
+                                            <a href="#appsec" class="h4 text-white mb-0">Application Security</a>
+                                        </div>
+                                        <a class="btn bg-light text-secondary scroll-to-section rounded-pill py-3 px-5 mb-4" href="#appsec">More</a>
+                                    </div>
+                                    <div class=" pb-4">
+                                        <div class="px-4" style="text-align: left;">
+                                            <p class="mb-4">
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item">
+                            <div class="service-inner">
+                                <div class="service-img">
+                                    <img src="img/c2b.png" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                                <div class="service-title">
+                                    <div class="service-title-name">
+                                        <div class="bg-primary text-center scroll-to-section rounded p-3 mx-5 mb-4">
+                                            <a href="#csec" class="h4 text-white mb-0">Cloud Security</a>
+                                        </div>
+                                        <a class="btn bg-light text-secondary scroll-to-section rounded-pill py-3 px-5 mb-4" href="#csec">More</a>
+                                    </div>
+                                    <div class=" pb-4">
+                                        <div class="px-4" style="text-align: left;">
+                                            <p class="mb-4">
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item">
+                            <div class="service-inner">
+                                <div class="service-img">
+                                    <img src="img/b2g.jpg" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                                <div class="service-title">
+                                    <div class="service-title-name">
+                                        <div class="bg-primary text-center scroll-to-section rounded p-3 mx-5 mb-4">
+                                            <a href="#idsec" class="h4 text-white mb-0"> Identity &amp; Access Management (IAM)</a>
+                                        </div>
+                                        <a class="btn bg-light text-secondary scroll-to-section rounded-pill py-3 px-5 mb-4" href="#idsec">More</a>
+                                    </div>
+                                    <div class=" pb-4">
+                                        <div class="px-4" style="text-align: left;">
+                                            <p class="mb-4">
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item">
+                            <div class="service-inner">
+                                <div class="service-img">
+                                    <img src="img/mcom.png" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                                <div class="service-title">
+                                    <div class="service-title-name">
+                                        <div class="bg-primary text-center scroll-to-section rounded p-3 mx-5 mb-4">
+                                            <a href="#datsec" class="h4 text-white mb-0">Data Security</a>
+                                        </div>
+                                        <a class="btn bg-light text-secondary scroll-to-section rounded-pill py-3 px-5 mb-4" href="#datsec">More</a>
+                                    </div>
+                                    <div class=" pb-4">
+                                        <div class="px-4" style="text-align: left;">
+                                            <p class="mb-4">
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item">
+                            <div class="service-inner">
+                                <div class="service-img">
+                                    <img src="img/socialc.jpg" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                                <div class="service-title">
+                                    <div class="service-title-name">
+                                        <div class="bg-primary text-center scroll-to-section rounded p-3 mx-5 mb-4">
+                                            <a href="#opsec" class="h4 text-white mb-0">Operational Security (OpSec)</a>
+                                        </div>
+                                        <a class="btn bg-light text-secondary scroll-to-section rounded-pill py-3 px-5 mb-4" href="#opsec">More</a>
+                                    </div>
+                                    <div class=" pb-4">
+                                        <div class="px-4" style="text-align: left;">
+                                            <p class="mb-4">
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item">
+                            <div class="service-inner">
+                                <div class="service-img">
+                                    <img src="img/subc.jpg" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                                <div class="service-title">
+                                    <div class="service-title-name">
+                                        <div class="bg-primary text-center scroll-to-section rounded p-3 mx-5 mb-4">
+                                            <a href="#insec" class="h4 text-white mb-0"> Incident Response and Recovery</a>
+                                        </div>
+                                        <a class="btn bg-light text-secondary scroll-to-section rounded-pill py-3 px-5 mb-4" href="#insec">More</a>
+                                    </div>
+                                    <div class=" pb-4">
+                                        <div class="px-4" style="text-align: left;">
+                                            <p class="mb-4">
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item">
+                            <div class="service-inner">
+                                <div class="service-img">
+                                    <img src="img/subc.jpg" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                                <div class="service-title">
+                                    <div class="service-title-name">
+                                        <div class="bg-primary text-center scroll-to-section rounded p-3 mx-5 mb-4">
+                                            <a href="#iotsec" class="h4 text-white mb-0">Internet of Things (IoT) Security</a>
+                                        </div>
+                                        <a class="btn bg-light text-secondary scroll-to-section rounded-pill py-3 px-5 mb-4" href="#iotsec">More</a>
+                                    </div>
+                                    <div class=" pb-4">
+                                        <div class="px-4" style="text-align: left;">
+                                            <p class="mb-4">
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item">
+                            <div class="service-inner">
+                                <div class="service-img">
+                                    <img src="img/subc.jpg" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                                <div class="service-title">
+                                    <div class="service-title-name">
+                                        <div class="bg-primary text-center scroll-to-section rounded p-3 mx-5 mb-4">
+                                            <a href="#crisec" class="h4 text-white mb-0">Critical Infrastructure Security</a>
+                                        </div>
+                                        <a class="btn bg-light text-secondary scroll-to-section rounded-pill py-3 px-5 mb-4" href="#crisec">More</a>
+                                    </div>
+                                    <div class=" pb-4">
+                                        <div class="px-4" style="text-align: left;">
+                                            <p class="mb-4">
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!-- Services End -->
+        <section class="section" id="netsec">
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
+                        <div class="bg-light rounded">
+                            <img src="img/b2c.jpg" class="img-fluid w-100" style="margin-bottom: -7px;" alt="Image">
+                            
+                        </div>
+                    </div>
+                    <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
+                        <h5 class="sub-title pe-3">Network Security</h5>
+                        <p class="mb-4">Network security focuses on protecting the infrastructure and data within an organization's 
+                            network from unauthorized access, attacks, and disruptions. This type of cybersecurity ensures the integrity 
+                            and confidentiality of data transmitted across networks, whether private or public.
+                        </p>
+                        <h5 class="sub-title pe-3">Example One</h5>
+                        <p class="mb-4">An organization implements strict controls to secure its internal network from external hackers. 
+                            For instance, a financial institution may set up firewalls and intrusion detection systems to prevent unauthorized 
+                            access to sensitive customer information.
+                        </p>
+                        <h5 class="sub-title pe-3">Example Two</h5>
+                        <p class="mb-4">A large corporation establishes a virtual private network (VPN) to ensure that remote employees securely 
+                            access the company’s resources. This protects communication channels from potential eavesdropping or interception by 
+                            cybercriminals.
+                        </p>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="section" id="endsec">
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
+                        <div class="bg-light rounded">
+                            <img src="img/b2b.png" class="img-fluid w-100" style="margin-bottom: -7px;" alt="Image">
+                            
+                        </div>
+                    </div>
+                    <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
+                        <h5 class="sub-title pe-3">Endpoint Security</h5>
+                        <p class="mb-4">Endpoint security protects devices such as laptops, smartphones, and servers that connect 
+                            to a network. It addresses vulnerabilities at the user-device level to prevent malicious activities or 
+                            data breaches.
+                        </p>
+                        <h5 class="sub-title pe-3">Example One</h5>
+                        <p class="mb-4">A company provides its employees with antivirus software and enforces policies to restrict 
+                            the use of personal USB devices. This ensures that endpoints remain secure from malware infections and 
+                            unauthorized data transfer.
+                        </p>
+                        <h5 class="sub-title pe-3">Example Two</h5>
+                        <p class="mb-4">
+                            An enterprise installs mobile device management (MDM) solutions to protect employee smartphones from 
+                            phishing attacks or malicious apps, especially when used for accessing corporate emails and data.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+        </section>
+        <section class="section" id="appsec">
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
+                        <div class="bg-light rounded">
+                            <img src="img/c2c.png" class="img-fluid w-100" style="margin-bottom: -7px;" alt="Image">
+                            
+                        </div>
+                    </div>
+                    <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
+                        <h5 class="sub-title pe-3">Application Security</h5>
+                        <p class="mb-4">Application security involves protecting software applications from 
+                            vulnerabilities during development and after deployment. This type of security ensures 
+                            that apps are resistant to threats such as data leaks or unauthorized modifications.
+                        </p>
+                        <h5 class="sub-title pe-3">Example One</h5>
+                        <p class="mb-4">A healthcare provider develops a patient management system with encrypted 
+                            data storage to ensure that sensitive health records remain secure from unauthorized access.
+                        </p>
+                        <h5 class="sub-title pe-3">Example Two</h5>
+                        <p class="mb-4">
+                            A company offering a cloud-based SaaS platform integrates secure authentication mechanisms, 
+                            such as two-factor authentication, to safeguard users' accounts from unauthorized logins.
+                        </p>     
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="section" id="csec">
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
+                        <div class="bg-light rounded">
+                            <img src="img/c2b.png" class="img-fluid w-100" style="margin-bottom: -7px;" alt="Image">
+                            
+                        </div>
+                    </div>
+                    <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
+                        <h5 class="sub-title pe-3">Cloud Security</h5>
+                        <p class="mb-4">Cloud security focuses on protecting data and applications hosted in cloud environments 
+                            from threats such as data breaches, malware, and insider threats. This type of cybersecurity is crucial 
+                            for businesses relying on cloud-based infrastructure.
+                        </p>
+                        <h5 class="sub-title pe-3">Example</h5>
+                        <p class="mb-4">A startup uses a cloud storage service for its customer database. To ensure security, the company 
+                            encrypts all data before uploading it and configures access controls to restrict unauthorized access by employees 
+                            or third parties.
+                        </p>
+                        <h5 class="sub-title pe-3">Example Two</h5>
+                        <p class="mb-4">
+                            An e-commerce business runs its website on a cloud platform and implements measures like server-side encryption and 
+                            regular vulnerability assessments to prevent breaches that could expose customer information.
+                        </p>     
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+        </section>
+        <section class="section" id="idsec">
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
+                        <div class="bg-light rounded">
+                            <img src="img/b2g.jpg" class="img-fluid w-100" style="margin-bottom: -7px;" alt="Image">
+                            
+                        </div>
+                    </div>
+                    <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
+                        <h5 class="sub-title pe-3">Identity Access Management (IAM)</h5>
+                        <p class="mb-4">IAM cybersecurity ensures that the right individuals in an organization have access to 
+                            the right resources at the right times. This prevents unauthorized access to sensitive data or systems.
+                        </p>
+                        <h5 class="sub-title pe-3">Example One</h5>
+                        <p class="mb-4">A government agency uses biometric authentication for employees accessing confidential systems, 
+                            ensuring that only authorized personnel can interact with classified information.
+                        </p>
+                        <h5 class="sub-title pe-3">Example Two</h5>
+                        <p class="mb-4">
+                            A multinational company implements role-based access controls, allowing employees to access only the data and 
+                            systems necessary for their specific job functions, minimizing the risk of insider threats.
+                        </p>     
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+        </section>
+        <section class="section" id="datsec">
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
+                        <div class="bg-light rounded">
+                            <img src="img/mcom.png" class="img-fluid w-100" style="margin-bottom: -7px;" alt="Image">
+                            
+                        </div>
+                    </div>
+                    <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
+                        <h5 class="sub-title pe-3">Data Security</h5>
+                        <p class="mb-4">Data security focuses on protecting data from unauthorized access, 
+                            corruption, or loss throughout its lifecycle. It includes encryption, data masking, 
+                            and secure backups to ensure information remains safe.
+                        </p>
+                        <h5 class="sub-title pe-3">Example One</h5>
+                        <p class="mb-4">A university encrypts student records stored in its database to protect 
+                            sensitive information, such as grades and personal details, from unauthorized access.
+                        </p>
+                        <h5 class="sub-title pe-3">Example Two</h5>
+                        <p class="mb-4">A logistics company ensures regular backups of its operational data to a 
+                            secure offsite location. This ensures data recovery in case of ransomware attacks or 
+                            system failures.
+                        </p>     
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+        </section>
+        <section class="section" id="opsec">
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
+                        <div class="bg-light rounded">
+                            <img src="img/socialc.jpg" class="img-fluid w-100" style="margin-bottom: -7px;" alt="Image">
+                            
+                        </div>
+                    </div>
+                    <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
+                        <h5 class="sub-title pe-3">Operational Security (OpSec)</h5>
+                        <p class="mb-4">Operational security involves safeguarding sensitive operational processes from threats. 
+                            This includes managing how information is shared and ensuring physical security measures are in place.
+                        </p>
+                        <h5 class="sub-title pe-3">Example One</h5>
+                        <p class="mb-4">A defense contractor restricts access to project details by employing strict clearance levels 
+                            and encrypting communications to ensure information remains confidential.
+                        </p>
+                        <h5 class="sub-title pe-3">Example Two</h5>
+                        <p class="mb-4">A manufacturing company conducts regular training sessions for employees on best practices for 
+                            handling proprietary information, reducing the risk of accidental leaks or insider threats.
+                        </p>     
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="section" id="insec">
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
+                        <div class="bg-light rounded">
+                            <img src="img/subc.jpg" class="img-fluid w-100" style="margin-bottom: -7px;" alt="Image">   
+                        </div>
+                    </div>
+                    <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
+                        <h5 class="sub-title pe-3">Incidence Response &amp; Recovery</h5>
+                        <p class="mb-4">This type of cybersecurity focuses on responding to and recovering from cyberattacks or 
+                            breaches. It ensures that organizations can minimize damage and restore normal operations quickly.
+                        </p>
+                        <h5 class="sub-title pe-3">Example One</h5>
+                        <p class="mb-4">A financial institution detects a phishing attack on its network. The incident response 
+                            team immediately isolates the affected systems, investigates the breach, and implements corrective 
+                            measures to prevent future occurrences.
+                        </p>
+                        <h5 class="sub-title pe-3">Example Two</h5>
+                        <p class="mb-4">A retail company hit by ransomware activates its disaster recovery plan, restoring systems 
+                            and data from secure backups within hours to minimize disruption to business operations.
+                        </p>     
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>        
+        </section>
+        <section class="section" id="iotsec">
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
+                        <div class="bg-light rounded">
+                            <img src="img/subc.jpg" class="img-fluid w-100" style="margin-bottom: -7px;" alt="Image">   
+                        </div>
+                    </div>
+                    <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
+                        <h5 class="sub-title pe-3">Internet of things (IoT) Security</h5>
+                        <p class="mb-4">IoT security protects connected devices and networks from vulnerabilities that could be 
+                            exploited to compromise systems or data. With the growing number of smart devices, this form of 
+                            cybersecurity is increasingly vital.
+                        </p>
+                        <h5 class="sub-title pe-3">Example One</h5>
+                        <p class="mb-4">A smart home system that includes devices like cameras, thermostats, and locks is secured 
+                            with strong passwords and encrypted communications to prevent unauthorized access or hacking.
+                        </p>
+                        <h5 class="sub-title pe-3">Example Two</h5>
+                        <p class="mb-4">A healthcare facility uses IoT-connected medical devices to monitor patient vitals. Security 
+                            measures such as firmware updates and secure network configurations are implemented to prevent cyberattacks 
+                            that could compromise patient safety.
+                        </p>     
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>        
+        </section>
+        <section class="section" id="crisec">
+            <div class="container-fluid py-5">
+                <div class="container py-5">
+                    <div class="row g-5">
+                        <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
+                            <div class="bg-light rounded">
+                                <img src="img/subc.jpg" class="img-fluid w-100" style="margin-bottom: -7px;" alt="Image">   
+                            </div>
+                        </div>
+                        <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
+                        <h5 class="sub-title pe-3">Critical Infrastructure Security</h5>
+                        <p class="mb-4">This type of cybersecurity protects essential systems and assets, such as power grids, 
+                            water supplies, and communication networks, from threats that could cause widespread disruption.
+                        </p>
+                        <h5 class="sub-title pe-3">Example One</h5>
+                        <p class="mb-4">A power company implements robust cybersecurity measures to protect its grid control 
+                            systems from cyberattacks, ensuring uninterrupted electricity supply to millions of customers.
+                        </p>
+                        <h5 class="sub-title pe-3">Example Two</h5>
+                        <p class="mb-4">A city deploys secure monitoring systems for its public transportation network to prevent 
+                            potential hacking of traffic signals or fare collection systems, ensuring the safety and efficiency of 
+                            daily operations.
+                        </p>     
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>        
+        </section>
+        <!-- Contact Start -->
+        <section class="section" id="custom"> 
+        <div class="container-fluid contact overflow-hidden pb-5">
+            <div class="container py-5">
+                <div class="office pt-5">
+                    <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="sub-style">
+                            <h5 class="sub-title text-primary px-3">Custom Services</h5>
+                        </div>
+                        <h1 class="display-5 mb-4">Hire A Professional Today</h1>
+                        <p class="mb-0"></p>
+                    </div>
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="office-item p-4">
+                                <div class="office-img mb-4">
+                                    <img src="img/BellaTECH (6).png" class="img-fluid w-100 rounded" alt="">
+                                </div>
+                                <div class="office-content d-flex flex-column">
+                                    <h4 class="mb-2">Frontend/Backend</h4>
+                                    <a href="#" class="text-secondary fs-5 mb-2">+234</a>
+                                    <a href="#" class="text-muted fs-5 mb-2">@.com</a>
+                                    <p class="mb-0">.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="office-item p-4">
+                                <div class="office-img mb-4">
+                                    <img src="img/BellaTECH (6).png" class="img-fluid w-100 rounded" alt="">
+                                </div>
+                                <div class="office-content d-flex flex-column">
+                                    <h4 class="mb-2">Cloud infrastructure</h4>
+                                    <a href="#" class="text-secondary fs-5 mb-2">+234</a>
+                                    <a href="#" class="text-muted fs-5 mb-2">@.com</a>
+                                    <p class="mb-0">.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="office-item p-4">
+                                <div class="office-img mb-4">
+                                    <img src="img/BellaTECH (6).png" class="img-fluid w-100 rounded" alt="">
+                                </div>
+                                <div class="office-content d-flex flex-column">
+                                    <h4 class="mb-2">UI/UX</h4>
+                                    <a href="#" class="text-secondary fs-5 mb-2">+234</a>
+                                    <a href="#" class="text-muted fs-5 mb-2">@.com</a>
+                                    <p class="mb-0">.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="office-item p-4">
+                                <div class="office-img mb-4">
+                                    <img src="img/BellaTECH (6).png" class="img-fluid w-100 rounded" alt="">
+                                </div>
+                                <div class="office-content d-flex flex-column">
+                                    <h4 class="mb-2">Non-specific</h4>
+                                    <a href="#" class="text-secondary fs-5 mb-2">+234</a>
+                                    <a href="#" class="text-muted fs-5 mb-2">@.com</a>
+                                    <p class="mb-0">.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!-- Contact End -->
+
+        
+
+
+        
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-secondary mb-4">Contact Info</h4>
+                            <a href=""><i class="fa fa-map-marker-alt me-2"></i> 10 Ibrahim Bomai, Guzape, Abuja</a>
+                            <a href=""><i class="fas fa-envelope me-2"></i> bellahteck@gmail.com</a>
+                            <a href=""><i class="fas fa-phone me-2"></i> +234 816 054 9506</a>
+                            <a href="" class="mb-3"><i class="fas fa-print me-2"></i> +234 909 771 4496</a>
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-share fa-2x text-secondary me-2"></i>
+                                <a class="btn mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-secondary mb-4">Opening Time</h4>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">Mon - Friday:</h6>
+                                <p class="text-white mb-0">09.00 am to 07.00 pm</p>
+                            </div>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">Satday:</h6>
+                                <p class="text-white mb-0">10.00 am to 02.00 pm</p>
+                            </div>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">Vacation:</h6>
+                                <p class="text-white mb-0">All Sunday is our vacation</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-secondary mb-4">Our Services</h4>
+                            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> About Us</a>
+                            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Features</a>
+                            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Services</a>
+                            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Team</a>
+                            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Hire</a>
+                            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Contact</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="text-secondary mb-4">Newsletter</h4>
+                            <p class="text-white mb-3">Sign Up for our weekly Newsletters &amp; tech bulletin.</p>
+                            <div class="position-relative mx-auto rounded-pill">
+                                <input class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
+                                <button type="button" class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">SignUp</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-md-0">
+                        <span class="text-white"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>bellatechng.com</a>, All right reserved.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end text-white">
+                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                        Powered By <a class="border-bottom text-white" href="https://bellatechng.com">BellaTECH LTD.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    </body>
+
+</html>
