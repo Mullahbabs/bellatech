@@ -1,0 +1,2680 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>BteckJobs | Remote Customer Support Careers</title>
+    <meta
+      name="description"
+      content="BteckJobs trains, assesses and matches candidates with remote customer support opportunities from companies hiring globally."
+    />
+    <meta
+      property="og:title"
+      content="BteckJobs | Remote Customer Support Careers"
+    />
+    <meta
+      property="og:description"
+      content="We train, we assess, we match. Get prepared for legitimate remote customer service roles across 200+ companies."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=2070&auto=format&fit=crop"
+    />
+    <meta
+      property="og:image:alt"
+      content="Remote customer support professional working with laptop and headset"
+    />
+
+    <!-- Font Awesome 6 (free) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!-- Google Font: Inter & Poppins for modern SaaS feel -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="" />
+  </head>
+  <style>
+    /* ============================================
+   BTECKJOBS - MAIN STYLESHEET
+   Modern SaaS Landing Page
+   ============================================ */
+
+    /* CSS Variables */
+    :root {
+      --primary-blue: #2563eb;
+      --primary-blue-dark: #1d4ed8;
+      --primary-blue-light: #3b82f6;
+      --dark-navy: #0f172a;
+      --text-dark: #1e293b;
+      --text-muted: #64748b;
+      --light-blue-bg: #eff6ff;
+      --soft-gray: #f8fafc;
+      --border-color: #e2e8f0;
+      --white: #ffffff;
+      --success-green: #10b981;
+      --error-red: #ef4444;
+      --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+      --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.08);
+      --shadow-lg: 0 10px 40px rgba(37, 99, 235, 0.12);
+      --transition-fast: 0.2s ease;
+      --transition-smooth: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      --border-radius: 16px;
+      --font-primary: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-heading: "Poppins", "Inter", sans-serif;
+    }
+
+    /* Reset & Base */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+      font-family: var(--font-primary);
+      color: var(--text-dark);
+      line-height: 1.6;
+      background: var(--white);
+      overflow-x: hidden;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+      transition: color var(--transition-fast);
+    }
+
+    .skip-link {
+      position: absolute;
+      top: -100px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--primary-blue);
+      color: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+      z-index: 10000;
+      transition: top 0.3s;
+    }
+
+    .skip-link:focus {
+      top: 20px;
+    }
+
+    /* Container */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* Section Base */
+    .section {
+      padding: 100px 0;
+    }
+
+    .section-header {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto 60px;
+    }
+
+    .section-tag {
+      display: inline-block;
+      background: var(--light-blue-bg);
+      color: var(--primary-blue);
+      padding: 8px 20px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+
+    .section-header h2 {
+      font-family: var(--font-heading);
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: var(--dark-navy);
+      margin-bottom: 16px;
+      line-height: 1.2;
+    }
+
+    .section-header p {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 14px 28px;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: all var(--transition-smooth);
+      cursor: pointer;
+      border: none;
+      white-space: nowrap;
+    }
+
+    .btn-primary {
+      background: var(--primary-blue);
+      color: white;
+      box-shadow: 0 4px 14px rgba(37, 99, 235, 0.3);
+    }
+
+    .btn-primary:hover {
+      background: var(--primary-blue-dark);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4);
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--primary-blue);
+      border: 2px solid var(--primary-blue);
+    }
+
+    .btn-outline:hover {
+      background: var(--light-blue-bg);
+      transform: translateY(-2px);
+    }
+
+    .btn-white {
+      background: white;
+      color: var(--primary-blue);
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+    }
+
+    .btn-white:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .btn-lg {
+      padding: 16px 32px;
+      font-size: 1.05rem;
+    }
+
+    .btn:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    /* Navigation */
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      padding: 16px 0;
+      transition: all var(--transition-smooth);
+      border-bottom: 1px solid transparent;
+    }
+
+    .navbar.scrolled {
+      padding: 10px 0;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .nav-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 1.5rem;
+      color: var(--dark-navy);
+    }
+
+    .brand-icon {
+      width: 40px;
+      height: 40px;
+      background: var(--primary-blue);
+      color: white;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+    }
+
+    .nav-links ul {
+      display: flex;
+      list-style: none;
+      gap: 32px;
+    }
+
+    .nav-links a {
+      color: var(--text-dark);
+      font-weight: 500;
+      font-size: 0.95rem;
+      position: relative;
+      padding: 4px 0;
+    }
+
+    .nav-links a::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: var(--primary-blue);
+      transition: width var(--transition-smooth);
+    }
+
+    .nav-links a:hover::after,
+    .nav-links a.active::after {
+      width: 100%;
+    }
+
+    .nav-cta {
+      padding: 12px 24px;
+      font-size: 0.9rem;
+    }
+
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 5px;
+    }
+
+    .hamburger span {
+      width: 25px;
+      height: 2px;
+      background: var(--dark-navy);
+      transition: all var(--transition-smooth);
+      border-radius: 2px;
+    }
+
+    .hamburger.active span:nth-child(1) {
+      transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .hamburger.active span:nth-child(2) {
+      opacity: 0;
+    }
+
+    .hamburger.active span:nth-child(3) {
+      transform: rotate(-45deg) translate(7px, -7px);
+    }
+
+    /* Hero Section & Carousel */
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      background: linear-gradient(
+        135deg,
+        #f0f7ff 0%,
+        #e8f0fe 50%,
+        #f5f9ff 100%
+      );
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      padding-top: 80px;
+    }
+
+    .hero-carousel {
+      width: 100%;
+      position: relative;
+    }
+
+    .hero-slide {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      opacity: 0;
+      visibility: hidden;
+      transition:
+        opacity 0.8s ease-in-out,
+        visibility 0.8s ease-in-out;
+      pointer-events: none;
+    }
+
+    .hero-slide.active {
+      position: relative;
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+    }
+
+    .hero-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+      min-height: calc(100vh - 80px);
+      padding: 40px 24px;
+    }
+
+    .hero-text {
+      z-index: 2;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: white;
+      padding: 8px 16px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--primary-blue);
+      box-shadow: var(--shadow-sm);
+      margin-bottom: 24px;
+    }
+
+    .hero-text h1 {
+      font-family: var(--font-heading);
+      font-size: 3.5rem;
+      font-weight: 700;
+      color: var(--dark-navy);
+      line-height: 1.15;
+      margin-bottom: 20px;
+    }
+
+    .text-highlight {
+      color: var(--primary-blue);
+      position: relative;
+    }
+
+    .hero-text p {
+      font-size: 1.15rem;
+      color: var(--text-muted);
+      margin-bottom: 32px;
+      max-width: 500px;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    /* Hero Visual Elements */
+    .hero-visual {
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-bg-abstract {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .blob {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(60px);
+      opacity: 0.3;
+      animation: float 8s ease-in-out infinite;
+    }
+
+    .blob-1 {
+      width: 300px;
+      height: 300px;
+      background: #60a5fa;
+      top: 10%;
+      left: 5%;
+    }
+    .blob-2 {
+      width: 250px;
+      height: 250px;
+      background: #93c5fd;
+      bottom: 15%;
+      right: 10%;
+      animation-delay: -2s;
+    }
+    .blob-3 {
+      width: 350px;
+      height: 350px;
+      background: #3b82f6;
+      top: 20%;
+      right: 15%;
+    }
+    .blob-4 {
+      width: 280px;
+      height: 280px;
+      background: #2563eb;
+      bottom: 10%;
+      left: 20%;
+      animation-delay: -4s;
+    }
+
+    .floating-icon {
+      position: absolute;
+      font-size: 2rem;
+      color: var(--primary-blue-light);
+      opacity: 0.6;
+      animation: float 6s ease-in-out infinite;
+    }
+
+    .icon-1 {
+      top: 20%;
+      left: 15%;
+    }
+    .icon-2 {
+      bottom: 25%;
+      right: 20%;
+      animation-delay: -2s;
+    }
+    .icon-3 {
+      top: 60%;
+      left: 10%;
+      animation-delay: -4s;
+    }
+    .icon-4 {
+      top: 15%;
+      right: 25%;
+    }
+    .icon-5 {
+      bottom: 15%;
+      left: 30%;
+      animation-delay: -3s;
+    }
+    .icon-6 {
+      top: 70%;
+      right: 10%;
+    }
+    .icon-7 {
+      bottom: 30%;
+      left: 5%;
+      animation-delay: -5s;
+    }
+
+    @keyframes float {
+      0%,
+      100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+    }
+
+    /* Dashboard Mock */
+    .dashboard-mock,
+    .training-mock,
+    .pipeline-mock {
+      background: white;
+      border-radius: 20px;
+      box-shadow: var(--shadow-lg);
+      padding: 24px;
+      position: relative;
+      z-index: 1;
+      animation: fadeInUp 0.8s ease-out;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .dash-header {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 20px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+    }
+    .dot.red {
+      background: #f87171;
+    }
+    .dot.yellow {
+      background: #fbbf24;
+    }
+    .dot.green {
+      background: #34d399;
+    }
+
+    .dash-title {
+      margin-left: 12px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+
+    .ticket-card {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 16px;
+      background: var(--soft-gray);
+      border-radius: 12px;
+      margin-bottom: 16px;
+    }
+
+    .avatar {
+      width: 40px;
+      height: 40px;
+      background: var(--light-blue-bg);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+    }
+
+    .ticket-subject {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .status-badge {
+      margin-left: auto;
+      background: #d1fae5;
+      color: #065f46;
+      padding: 4px 12px;
+      border-radius: 50px;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+
+    .chat-bubbles {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+
+    .bubble {
+      max-width: 80%;
+      padding: 12px 16px;
+      border-radius: 16px;
+      font-size: 0.9rem;
+    }
+
+    .bubble.left {
+      background: var(--soft-gray);
+      border-bottom-left-radius: 4px;
+      align-self: flex-start;
+    }
+
+    .bubble.right {
+      background: var(--primary-blue);
+      color: white;
+      border-bottom-right-radius: 4px;
+      align-self: flex-end;
+    }
+
+    .metric-row {
+      display: flex;
+      gap: 16px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border-color);
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .metric-row i {
+      color: #f59e0b;
+    }
+
+    /* Training Mock */
+    .progress-card {
+      margin-bottom: 16px;
+    }
+
+    .progress-card span {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+
+    .progress-bar {
+      background: var(--border-color);
+      height: 8px;
+      border-radius: 4px;
+      overflow: hidden;
+      margin-bottom: 4px;
+    }
+
+    .progress-bar span {
+      display: block;
+      height: 100%;
+      background: var(--primary-blue);
+      border-radius: 4px;
+      animation: progressFill 2s ease-out;
+    }
+
+    @keyframes progressFill {
+      from {
+        width: 0;
+      }
+    }
+
+    .progress-label {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      display: block;
+    }
+
+    .assessment-card {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 16px;
+      background: var(--light-blue-bg);
+      border-radius: 12px;
+      margin-bottom: 16px;
+    }
+
+    .assessment-card i {
+      font-size: 1.5rem;
+      color: var(--primary-blue);
+    }
+
+    .ready-dot {
+      margin-left: auto;
+      color: var(--success-green);
+    }
+
+    .course-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .course-list div {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 12px;
+      background: var(--soft-gray);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+
+    .course-list i {
+      color: var(--primary-blue);
+      width: 20px;
+    }
+
+    /* Pipeline Mock */
+    .pipeline-mock {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .pipe-step {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 16px;
+      border-radius: 12px;
+      font-weight: 600;
+      background: var(--soft-gray);
+      transition: all var(--transition-smooth);
+    }
+
+    .pipe-step.highlight {
+      background: var(--primary-blue);
+      color: white;
+    }
+
+    .pipe-icon {
+      width: 40px;
+      height: 40px;
+      background: white;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--primary-blue);
+      font-size: 1.2rem;
+    }
+
+    .pipe-step.highlight .pipe-icon {
+      color: white;
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    .pipe-arrow {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 1.5rem;
+    }
+
+    /* Carousel Dots */
+    .carousel-dots {
+      position: absolute;
+      bottom: 30px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 12px;
+      z-index: 10;
+    }
+
+    .carousel-dots .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #cbd5e1;
+      border: none;
+      cursor: pointer;
+      transition: all var(--transition-smooth);
+    }
+
+    .carousel-dots .dot.active {
+      background: var(--primary-blue);
+      width: 30px;
+      border-radius: 5px;
+    }
+
+    /* Trust Bar */
+    .trust-bar {
+      background: white;
+      border-bottom: 1px solid var(--border-color);
+      padding: 20px 0;
+    }
+
+    .trust-items {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .trust-items span {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 600;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+
+    .trust-items i {
+      color: var(--primary-blue);
+      font-size: 1.2rem;
+    }
+
+    /* How It Works */
+    .how-it-works {
+      background: var(--soft-gray);
+    }
+
+    .steps-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+      position: relative;
+    }
+
+    .step-card {
+      background: white;
+      padding: 32px 24px;
+      border-radius: var(--border-radius);
+      box-shadow: var(--shadow-sm);
+      text-align: center;
+      position: relative;
+      transition: all var(--transition-smooth);
+    }
+
+    .step-card:hover {
+      transform: translateY(-8px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .step-number {
+      position: absolute;
+      top: -15px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--primary-blue);
+      color: white;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 0.9rem;
+      box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+    }
+
+    .step-icon {
+      font-size: 2.5rem;
+      color: var(--primary-blue);
+      margin-bottom: 16px;
+      display: block;
+    }
+
+    .step-card h3 {
+      font-family: var(--font-heading);
+      font-size: 1.2rem;
+      margin-bottom: 12px;
+      color: var(--dark-navy);
+    }
+
+    .step-card p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    /* Roles Section */
+    .roles-section {
+      background: white;
+    }
+
+    .roles-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+    }
+
+    .role-card {
+      background: var(--soft-gray);
+      padding: 28px;
+      border-radius: var(--border-radius);
+      transition: all var(--transition-smooth);
+      border: 1px solid transparent;
+    }
+
+    .role-card:hover {
+      background: white;
+      border-color: var(--primary-blue-light);
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .role-card i {
+      font-size: 2rem;
+      color: var(--primary-blue);
+      margin-bottom: 16px;
+    }
+
+    .role-card h3 {
+      font-family: var(--font-heading);
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+      color: var(--dark-navy);
+    }
+
+    .role-card p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    /* Why BteckJobs */
+    .why-section {
+      background: linear-gradient(180deg, var(--light-blue-bg) 0%, white 100%);
+    }
+
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .feature-card {
+      background: white;
+      padding: 32px;
+      border-radius: var(--border-radius);
+      box-shadow: var(--shadow-sm);
+      transition: all var(--transition-smooth);
+      text-align: center;
+    }
+
+    .feature-card:hover {
+      box-shadow: var(--shadow-lg);
+      transform: translateY(-5px);
+    }
+
+    .feature-card i {
+      font-size: 2.5rem;
+      color: var(--primary-blue);
+      margin-bottom: 20px;
+      display: block;
+    }
+
+    .feature-card h3 {
+      font-family: var(--font-heading);
+      font-size: 1.15rem;
+      margin-bottom: 12px;
+      color: var(--dark-navy);
+    }
+
+    .feature-card p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    /* Remote Section */
+    .remote-section {
+      background: var(--dark-navy);
+      color: white;
+    }
+
+    .remote-section .section-header h2 {
+      color: white;
+    }
+
+    .remote-section .section-header p {
+      color: #94a3b8;
+    }
+
+    .remote-section .section-tag {
+      background: rgba(37, 99, 235, 0.2);
+      color: #93c5fd;
+    }
+
+    .remote-cards {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 20px;
+    }
+
+    .remote-card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 24px;
+      border-radius: var(--border-radius);
+      transition: all var(--transition-smooth);
+      text-align: center;
+    }
+
+    .remote-card:hover {
+      background: rgba(255, 255, 255, 0.1);
+      transform: translateY(-5px);
+    }
+
+    .remote-card i {
+      font-size: 2rem;
+      color: #93c5fd;
+      margin-bottom: 16px;
+    }
+
+    .remote-card h3 {
+      font-family: var(--font-heading);
+      font-size: 1rem;
+      margin-bottom: 10px;
+      color: white;
+    }
+
+    .remote-card p {
+      font-size: 0.85rem;
+      color: #94a3b8;
+    }
+
+    /* Application Section */
+    .application-section {
+      background: linear-gradient(135deg, var(--light-blue-bg) 0%, white 100%);
+    }
+
+    .application-container {
+      max-width: 800px;
+    }
+
+    .form-panel {
+      background: white;
+      border-radius: 24px;
+      box-shadow: var(--shadow-lg);
+      padding: 48px;
+    }
+
+    .form-header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .form-header h2 {
+      font-family: var(--font-heading);
+      font-size: 2rem;
+      color: var(--dark-navy);
+      margin-bottom: 16px;
+    }
+
+    .form-header p {
+      color: var(--text-muted);
+      font-size: 1rem;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .form-group.full-width {
+      grid-column: 1 / -1;
+    }
+
+    .form-group label {
+      font-weight: 600;
+      font-size: 0.9rem;
+      color: var(--text-dark);
+    }
+
+    .form-group input,
+    .form-group select {
+      padding: 14px 16px;
+      border: 2px solid var(--border-color);
+      border-radius: 12px;
+      font-size: 1rem;
+      transition: border-color var(--transition-fast);
+      font-family: var(--font-primary);
+      background: white;
+    }
+
+    .form-group input:focus,
+    .form-group select:focus {
+      outline: none;
+      border-color: var(--primary-blue);
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+    }
+
+    .form-group input.error,
+    .form-group select.error {
+      border-color: var(--error-red);
+    }
+
+    .error-message {
+      color: var(--error-red);
+      font-size: 0.8rem;
+      font-weight: 500;
+      display: none;
+    }
+
+    .error-message.show {
+      display: block;
+      animation: shake 0.3s ease;
+    }
+
+    @keyframes shake {
+      0%,
+      100% {
+        transform: translateX(0);
+      }
+      25% {
+        transform: translateX(-5px);
+      }
+      75% {
+        transform: translateX(5px);
+      }
+    }
+
+    .submit-btn {
+      width: 100%;
+      margin-top: 32px;
+      font-size: 1.1rem;
+    }
+
+    .btn-loader {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* Success Panel */
+    .success-panel {
+      background: white;
+      border-radius: 24px;
+      box-shadow: var(--shadow-lg);
+      padding: 60px 48px;
+      text-align: center;
+      animation: fadeInUp 0.6s ease-out;
+    }
+
+    .success-icon {
+      width: 80px;
+      height: 80px;
+      background: #d1fae5;
+      color: var(--success-green);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+      margin: 0 auto 24px;
+      animation: pulse 2s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%,
+      100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.05);
+      }
+    }
+
+    .success-panel h2 {
+      font-family: var(--font-heading);
+      font-size: 2rem;
+      color: var(--dark-navy);
+      margin-bottom: 16px;
+    }
+
+    .success-panel p {
+      color: var(--text-muted);
+      margin-bottom: 32px;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* Final CTA */
+    .final-cta {
+      background: linear-gradient(
+        135deg,
+        var(--primary-blue) 0%,
+        var(--primary-blue-dark) 100%
+      );
+      padding: 80px 0;
+      text-align: center;
+    }
+
+    .final-cta-inner {
+      max-width: 700px;
+    }
+
+    .final-cta h2 {
+      font-family: var(--font-heading);
+      font-size: 2.5rem;
+      color: white;
+      margin-bottom: 16px;
+    }
+
+    .final-cta p {
+      color: rgba(255, 255, 255, 0.9);
+      font-size: 1.1rem;
+      margin-bottom: 32px;
+    }
+
+    /* Footer */
+    .footer {
+      background: var(--dark-navy);
+      color: white;
+      padding: 60px 0 20px;
+    }
+
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 40px;
+      margin-bottom: 40px;
+    }
+
+    .footer-brand {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .footer-brand .brand-icon {
+      width: 48px;
+      height: 48px;
+      font-size: 1.3rem;
+    }
+
+    .footer-brand p {
+      color: #94a3b8;
+      font-style: italic;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 32px;
+    }
+
+    .footer-links a {
+      color: #cbd5e1;
+      font-size: 0.9rem;
+    }
+
+    .footer-links a:hover {
+      color: white;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      padding-top: 20px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      color: #64748b;
+      font-size: 0.85rem;
+    }
+
+    /* Scroll Reveal Animations */
+    .reveal {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Responsive Design */
+    @media (max-width: 1024px) {
+      .hero-content {
+        gap: 40px;
+      }
+
+      .hero-text h1 {
+        font-size: 2.8rem;
+      }
+
+      .roles-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      .remote-cards {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .section {
+        padding: 70px 0;
+      }
+
+      .section-header h2 {
+        font-size: 2rem;
+      }
+
+      .nav-links {
+        position: fixed;
+        top: 70px;
+        left: 0;
+        right: 0;
+        background: white;
+        padding: 24px;
+        box-shadow: var(--shadow-lg);
+        transform: translateY(-150%);
+        transition: transform var(--transition-smooth);
+        z-index: 999;
+      }
+
+      .nav-links.active {
+        transform: translateY(0);
+      }
+
+      .nav-links ul {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+      }
+
+      .hamburger {
+        display: flex;
+      }
+
+      .nav-cta {
+        display: none;
+      }
+
+      .hero-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 40px;
+        padding: 60px 24px;
+      }
+
+      .hero-text h1 {
+        font-size: 2.2rem;
+      }
+
+      .hero-text p {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .hero-actions {
+        justify-content: center;
+      }
+
+      .hero-visual {
+        max-width: 500px;
+        margin: 0 auto;
+      }
+
+      .steps-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+
+      .roles-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .remote-cards {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .form-panel {
+        padding: 32px 24px;
+      }
+
+      .form-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .form-group.full-width {
+        grid-column: 1;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .hero-text h1 {
+        font-size: 1.8rem;
+      }
+
+      .hero-badge {
+        font-size: 0.75rem;
+      }
+
+      .roles-grid,
+      .features-grid,
+      .remote-cards {
+        grid-template-columns: 1fr;
+      }
+
+      .trust-items {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .footer-content {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+      }
+
+      .footer-links {
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
+      }
+
+      .btn-lg {
+        padding: 14px 24px;
+        font-size: 0.95rem;
+      }
+
+      .section-header h2 {
+        font-size: 1.7rem;
+      }
+    }
+
+    /* Reduced Motion */
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+
+      .hero-slide {
+        transition: opacity 0.01ms;
+      }
+
+      .reveal {
+        opacity: 1;
+        transform: none;
+      }
+
+      .blob,
+      .floating-icon {
+        animation: none;
+      }
+    }
+  </style>
+  <body>
+    <!-- Skip link for accessibility -->
+    <a href="#application-form" class="skip-link">Skip to application form</a>
+
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+      <div class="container nav-container">
+        <a href="#home" class="brand" aria-label="BteckJobs home">
+          <span class="brand-icon"><i class="fas fa-headset"></i></span>
+          <span>BteckJobs</span>
+        </a>
+        <nav class="nav-links" aria-label="Main navigation">
+          <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#roles">Customer Support Roles</a></li>
+            <li><a href="#why-bteckjobs">Why BteckJobs</a></li>
+            <li><a href="#application-form" class="nav-cta-link">Apply</a></li>
+          </ul>
+        </nav>
+        <a href="#application-form" class="btn btn-primary nav-cta"
+          >Start Application</a
+        >
+        <button
+          class="hamburger"
+          id="hamburger"
+          aria-label="Open menu"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Hero Section with fade carousel -->
+    <section class="hero" id="home">
+      <div class="hero-carousel" id="heroCarousel">
+        <!-- Slide 1 -->
+        <div class="hero-slide active" data-slide="1">
+          <div class="hero-bg-abstract">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+            <i class="fas fa-comment-dots floating-icon icon-1"></i>
+            <i class="fas fa-ticket-alt floating-icon icon-2"></i>
+            <i class="fas fa-star floating-icon icon-3"></i>
+          </div>
+          <div class="container hero-content">
+            <div class="hero-text">
+              <span class="hero-badge"
+                ><i class="fas fa-globe"></i> Remote-first · 200+ hiring
+                partners</span
+              >
+              <h1>
+                Build Your Career in
+                <span class="text-highlight">Remote Customer Support</span>
+              </h1>
+              <p>
+                Get trained, assessed and matched with remote customer service
+                opportunities from companies hiring globally.
+              </p>
+              <div class="hero-actions">
+                <a href="#application-form" class="btn btn-primary btn-lg"
+                  >Start Your Application <i class="fas fa-arrow-right"></i
+                ></a>
+                <a href="#how-it-works" class="btn btn-outline btn-lg"
+                  >How It Works</a
+                >
+              </div>
+            </div>
+            <div class="hero-visual" aria-hidden="true">
+              <div class="dashboard-mock">
+                <div class="dash-header">
+                  <span class="dot red"></span><span class="dot yellow"></span
+                  ><span class="dot green"></span>
+                  <span class="dash-title">Support Console</span>
+                </div>
+                <div class="dash-body">
+                  <div class="ticket-card">
+                    <div class="avatar">👩‍💻</div>
+                    <div>
+                      <strong>Customer: Maria</strong><br /><span
+                        class="ticket-subject"
+                        >"How do I reset my password?"</span
+                      >
+                    </div>
+                    <span class="status-badge">Resolved</span>
+                  </div>
+                  <div class="chat-bubbles">
+                    <div class="bubble left">
+                      Hi! I need help with my order.
+                    </div>
+                    <div class="bubble right">
+                      Sure, I'd be happy to assist!
+                    </div>
+                    <div class="bubble left">Thanks, it's order #1234</div>
+                  </div>
+                  <div class="metric-row">
+                    <div><i class="fas fa-star"></i> 4.9 CSAT</div>
+                    <div><i class="fas fa-clock"></i> Avg. reply 2m</div>
+                  </div>
+                </div>
+              </div>
+              <div class="floating-card card-small">
+                <i class="fas fa-check-circle"></i> Ticket solved
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="hero-slide" data-slide="2">
+          <div class="hero-bg-abstract">
+            <div class="blob blob-3"></div>
+            <i class="fas fa-graduation-cap floating-icon icon-4"></i>
+            <i class="fas fa-chart-line floating-icon icon-5"></i>
+          </div>
+          <div class="container hero-content">
+            <div class="hero-text">
+              <span class="hero-badge"
+                ><i class="fas fa-chalkboard-teacher"></i> Professional training
+                modules</span
+              >
+              <h1>
+                Get Trained for the Jobs
+                <span class="text-highlight">Companies Actually Need</span>
+              </h1>
+              <p>
+                Develop communication, problem-solving and customer service
+                skills required to succeed in today's remote support roles.
+              </p>
+              <div class="hero-actions">
+                <a href="#application-form" class="btn btn-primary btn-lg"
+                  >Start Training <i class="fas fa-arrow-right"></i
+                ></a>
+                <a href="#roles" class="btn btn-outline btn-lg"
+                  >Explore Roles</a
+                >
+              </div>
+            </div>
+            <div class="hero-visual" aria-hidden="true">
+              <div class="training-mock">
+                <div class="progress-card">
+                  <span>Communication Mastery</span>
+                  <div class="progress-bar">
+                    <span style="width: 78%"></span>
+                  </div>
+                  <span class="progress-label">78% complete</span>
+                </div>
+                <div class="assessment-card">
+                  <i class="fas fa-clipboard-check"></i>
+                  <span>Assessment Ready</span>
+                  <span class="ready-dot"
+                    ><i class="fas fa-circle-check"></i
+                  ></span>
+                </div>
+                <div class="course-list">
+                  <div>
+                    <i class="fas fa-microphone-alt"></i> Phone Etiquette
+                  </div>
+                  <div><i class="fas fa-comment-dots"></i> Chat Support</div>
+                  <div>
+                    <i class="fas fa-envelope-open-text"></i> Email Writing
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 3 -->
+        <div class="hero-slide" data-slide="3">
+          <div class="hero-bg-abstract">
+            <div class="blob blob-4"></div>
+            <i class="fas fa-link floating-icon icon-6"></i>
+            <i class="fas fa-briefcase floating-icon icon-7"></i>
+          </div>
+          <div class="container hero-content">
+            <div class="hero-text">
+              <span class="hero-badge"
+                ><i class="fas fa-handshake"></i> 200+ companies</span
+              >
+              <h1>
+                We Train. We Assess.
+                <span class="text-highlight">We Match.</span>
+              </h1>
+              <p>
+                Once you're ready, we help connect qualified candidates with
+                remote customer support opportunities across our network.
+              </p>
+              <div class="hero-actions">
+                <a href="#application-form" class="btn btn-primary btn-lg"
+                  >Apply Now <i class="fas fa-arrow-right"></i
+                ></a>
+                <a href="#why-bteckjobs" class="btn btn-outline btn-lg"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+            <div class="hero-visual" aria-hidden="true">
+              <div class="pipeline-mock">
+                <div class="pipe-step">
+                  <span class="pipe-icon"
+                    ><i class="fas fa-user-graduate"></i
+                  ></span>
+                  TRAIN
+                </div>
+                <div class="pipe-arrow">→</div>
+                <div class="pipe-step">
+                  <span class="pipe-icon"
+                    ><i class="fas fa-check-double"></i
+                  ></span>
+                  ASSESS
+                </div>
+                <div class="pipe-arrow">→</div>
+                <div class="pipe-step">
+                  <span class="pipe-icon"
+                    ><i class="fas fa-handshake"></i
+                  ></span>
+                  MATCH
+                </div>
+                <div class="pipe-arrow">→</div>
+                <div class="pipe-step highlight">
+                  <span class="pipe-icon"
+                    ><i class="fas fa-laptop-house"></i
+                  ></span>
+                  REMOTE JOB
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Dots -->
+        <div
+          class="carousel-dots"
+          id="carouselDots"
+          role="tablist"
+          aria-label="Hero slides"
+        >
+          <button
+            class="dot active"
+            data-index="0"
+            aria-label="Slide 1"
+          ></button>
+          <button class="dot" data-index="1" aria-label="Slide 2"></button>
+          <button class="dot" data-index="2" aria-label="Slide 3"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust bar -->
+    <div class="trust-bar">
+      <div class="container trust-items">
+        <span><i class="fas fa-building"></i> 200+ Companies</span>
+        <span><i class="fas fa-laptop-house"></i> Remote Opportunities</span>
+        <span
+          ><i class="fas fa-chalkboard-user"></i> Professional Training</span
+        >
+        <span><i class="fas fa-clipboard-list"></i> Skills Assessment</span>
+        <span><i class="fas fa-people-arrows"></i> Career Matching</span>
+      </div>
+    </div>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="section how-it-works">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Process</span>
+          <h2>Your Path to Remote Customer Support</h2>
+          <p>
+            Four clear steps between you and remote customer support
+            opportunities.
+          </p>
+        </div>
+        <div class="steps-grid">
+          <div class="step-card reveal">
+            <div class="step-number">01</div>
+            <i class="fas fa-file-alt step-icon"></i>
+            <h3>Apply</h3>
+            <p>
+              Submit your basic information and tell us what type of customer
+              support role interests you.
+            </p>
+          </div>
+          <div class="step-connector"></div>
+          <div class="step-card reveal">
+            <div class="step-number">02</div>
+            <i class="fas fa-graduation-cap step-icon"></i>
+            <h3>Train</h3>
+            <p>
+              Complete relevant customer service training designed to prepare
+              you for remote work.
+            </p>
+          </div>
+          <div class="step-connector"></div>
+          <div class="step-card reveal">
+            <div class="step-number">03</div>
+            <i class="fas fa-clipboard-check step-icon"></i>
+            <h3>Assess</h3>
+            <p>
+              We evaluate your communication, customer service and
+              problem-solving readiness.
+            </p>
+          </div>
+          <div class="step-connector"></div>
+          <div class="step-card reveal">
+            <div class="step-number">04</div>
+            <i class="fas fa-handshake step-icon"></i>
+            <h3>Match</h3>
+            <p>
+              Qualified candidates are matched with relevant remote customer
+              support opportunities.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Roles Section -->
+    <section id="roles" class="section roles-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Remote Roles</span>
+          <h2>Customer Support Career Paths</h2>
+          <p>
+            Explore different remote customer support specialties. Specific
+            openings depend on qualifications and availability.
+          </p>
+        </div>
+        <div class="roles-grid">
+          <div class="role-card reveal">
+            <i class="fas fa-headset"></i>
+            <h3>Customer Service Representative</h3>
+            <p>
+              Help customers resolve questions and issues through digital
+              communication channels.
+            </p>
+          </div>
+          <div class="role-card reveal">
+            <i class="fas fa-comment-dots"></i>
+            <h3>Chat Support Specialist</h3>
+            <p>Assist customers through live chat and messaging platforms.</p>
+          </div>
+          <div class="role-card reveal">
+            <i class="fas fa-envelope-open-text"></i>
+            <h3>Email Support Representative</h3>
+            <p>
+              Handle customer inquiries and provide professional support through
+              email.
+            </p>
+          </div>
+          <div class="role-card reveal">
+            <i class="fas fa-tools"></i>
+            <h3>Technical Support Representative</h3>
+            <p>
+              Assist customers with technical questions, troubleshooting and
+              product issues.
+            </p>
+          </div>
+          <div class="role-card reveal">
+            <i class="fas fa-smile"></i>
+            <h3>Customer Success Representative</h3>
+            <p>
+              Help customers get value from products and maintain positive
+              relationships.
+            </p>
+          </div>
+          <div class="role-card reveal">
+            <i class="fas fa-phone-alt"></i>
+            <h3>Call Center / Voice Support</h3>
+            <p>
+              Provide customer assistance through remote voice-based support.
+            </p>
+          </div>
+          <div class="role-card reveal">
+            <i class="fas fa-life-ring"></i>
+            <h3>Help Desk Support</h3>
+            <p>
+              Handle support requests, troubleshoot problems and escalate issues
+              when necessary.
+            </p>
+          </div>
+          <div class="role-card reveal">
+            <i class="fas fa-hashtag"></i>
+            <h3>Social Media Support</h3>
+            <p>
+              Respond to customer questions and complaints across social
+              platforms.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why BteckJobs -->
+    <section id="why-bteckjobs" class="section why-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Our Difference</span>
+          <h2>More Than a Job Application</h2>
+          <p>
+            BteckJobs is designed to help candidates become genuinely prepared
+            for remote customer support work rather than simply sending
+            applications into the internet void.
+          </p>
+        </div>
+        <div class="features-grid">
+          <div class="feature-card reveal">
+            <i class="fas fa-chalkboard-teacher"></i>
+            <h3>Practical Training</h3>
+            <p>
+              Customer service training that prepares you for real remote
+              scenarios.
+            </p>
+          </div>
+          <div class="feature-card reveal">
+            <i class="fas fa-clipboard-list"></i>
+            <h3>Skills Assessment</h3>
+            <p>We assess communication, problem-solving and readiness.</p>
+          </div>
+          <div class="feature-card reveal">
+            <i class="fas fa-laptop-house"></i>
+            <h3>Remote Career Focus</h3>
+            <p>Exclusively focused on remote customer support roles.</p>
+          </div>
+          <div class="feature-card reveal">
+            <i class="fas fa-people-arrows"></i>
+            <h3>Company Matching</h3>
+            <p>We connect qualified candidates with relevant opportunities.</p>
+          </div>
+          <div class="feature-card reveal">
+            <i class="fas fa-chart-line"></i>
+            <h3>Professional Development</h3>
+            <p>Grow skills that translate to long-term career value.</p>
+          </div>
+          <div class="feature-card reveal">
+            <i class="fas fa-globe-americas"></i>
+            <h3>Global Opportunities</h3>
+            <p>Access opportunities from companies hiring across borders.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Remote Work Section -->
+    <section class="section remote-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Remote Lifestyle</span>
+          <h2>Work From Wherever Your Career Takes You</h2>
+          <p>
+            Remote customer support offers flexibility and global connection.
+            Actual conditions depend on the employer and role.
+          </p>
+        </div>
+        <div class="remote-cards">
+          <div class="remote-card reveal">
+            <i class="fas fa-wifi"></i>
+            <h3>Remote-first</h3>
+            <p>
+              Opportunities designed for distributed teams and home offices.
+            </p>
+          </div>
+          <div class="remote-card reveal">
+            <i class="fas fa-clock"></i>
+            <h3>Flexible Environments</h3>
+            <p>Many roles offer adaptable schedules depending on employer.</p>
+          </div>
+          <div class="remote-card reveal">
+            <i class="fas fa-digital-tachograph"></i>
+            <h3>Digital Communication</h3>
+            <p>Master chat, email, voice and video support tools.</p>
+          </div>
+          <div class="remote-card reveal">
+            <i class="fas fa-users"></i>
+            <h3>Global Teams</h3>
+            <p>Collaborate with colleagues and customers across time zones.</p>
+          </div>
+          <div class="remote-card reveal">
+            <i class="fas fa-seedling"></i>
+            <h3>Professional Growth</h3>
+            <p>Develop skills that are in high demand worldwide.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Application Section -->
+    <section id="application-form" class="section application-section">
+      <div class="container application-container">
+        <div class="form-panel reveal" id="formPanel">
+          <div class="form-header">
+            <span class="section-tag">Get Started</span>
+            <h2>Start Your Remote Customer Support Journey</h2>
+            <p>
+              Tell us a little about yourself and the type of customer support
+              role you're interested in. We'll use your information to begin the
+              training and assessment process.
+            </p>
+          </div>
+          <form id="applicantForm" novalidate>
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="fullName">Full Name *</label>
+                <input
+                  type="text"
+                  id="fullName"
+                  name="from_name"
+                  placeholder="Alex Johnson"
+                  required
+                />
+                <div class="error-message" id="nameError">
+                  Please enter your full name.
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="from_email"
+                  placeholder="you@example.com"
+                  required
+                />
+                <div class="error-message" id="emailError">
+                  Please enter a valid email address.
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number *</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="+1 555 123 4567"
+                  required
+                />
+                <div class="error-message" id="phoneError">
+                  Please enter your phone number.
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="country">Country *</label>
+                <select id="country" name="country" required>
+                  <option value="">Select your country</option>
+                  <!-- comprehensive list -->
+                  <option>United States</option>
+                  <option>Canada</option>
+                  <option>United Kingdom</option>
+                  <option>Australia</option>
+                  <option>Germany</option>
+                  <option>France</option>
+                  <option>Spain</option>
+                  <option>Italy</option>
+                  <option>Netherlands</option>
+                  <option>Sweden</option>
+                  <option>Norway</option>
+                  <option>Denmark</option>
+                  <option>Finland</option>
+                  <option>Switzerland</option>
+                  <option>Austria</option>
+                  <option>Belgium</option>
+                  <option>Ireland</option>
+                  <option>Portugal</option>
+                  <option>Brazil</option>
+                  <option>Mexico</option>
+                  <option>Argentina</option>
+                  <option>Chile</option>
+                  <option>Colombia</option>
+                  <option>Peru</option>
+                  <option>South Africa</option>
+                  <option>Nigeria</option>
+                  <option>Kenya</option>
+                  <option>Egypt</option>
+                  <option>India</option>
+                  <option>Pakistan</option>
+                  <option>Bangladesh</option>
+                  <option>Philippines</option>
+                  <option>Indonesia</option>
+                  <option>Malaysia</option>
+                  <option>Singapore</option>
+                  <option>Thailand</option>
+                  <option>Vietnam</option>
+                  <option>Japan</option>
+                  <option>South Korea</option>
+                  <option>China</option>
+                  <option>Turkey</option>
+                  <option>United Arab Emirates</option>
+                  <option>Saudi Arabia</option>
+                  <option>Israel</option>
+                  <option>Poland</option>
+                  <option>Romania</option>
+                  <option>Czech Republic</option>
+                  <option>Greece</option>
+                  <option>Hungary</option>
+                  <option>New Zealand</option>
+                  <option>Other</option>
+                </select>
+                <div class="error-message" id="countryError">
+                  Please select your country.
+                </div>
+              </div>
+              <div class="form-group full-width">
+                <label for="role">Customer Service Role *</label>
+                <select id="role" name="role" required>
+                  <option value="">Choose a role...</option>
+                  <option>Customer Service Representative</option>
+                  <option>Live Chat Support</option>
+                  <option>Email Support</option>
+                  <option>Technical Support</option>
+                  <option>Customer Success</option>
+                  <option>Call Center / Voice Support</option>
+                  <option>Help Desk Support</option>
+                  <option>Social Media Support</option>
+                  <option>I'm Open to Any Customer Support Role</option>
+                </select>
+                <div class="error-message" id="roleError">
+                  Please select a customer service role.
+                </div>
+              </div>
+            </div>
+            <button
+              type="submit"
+              class="btn btn-primary btn-lg submit-btn"
+              id="submitBtn"
+            >
+              <span class="btn-text">Begin My Application</span>
+              <span class="btn-loader" style="display: none"
+                ><i class="fas fa-spinner fa-spin"></i> Submitting
+                Application...</span
+              >
+            </button>
+          </form>
+        </div>
+
+        <!-- Success panel hidden initially -->
+        <div
+          class="success-panel"
+          id="successPanel"
+          style="display: none"
+          aria-live="polite"
+        >
+          <div class="success-icon"><i class="fas fa-check-circle"></i></div>
+          <h2>Application Received</h2>
+          <p>
+            Thanks for applying to BteckJobs. Your information has been received
+            and we'll review your application as the next step toward training
+            and assessment.
+          </p>
+          <button class="btn btn-outline" id="resetFormBtn">
+            Submit Another Application
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+      <div class="container final-cta-inner">
+        <h2>Ready to Start Your Remote Customer Support Career?</h2>
+        <p>Your next opportunity could start with better preparation.</p>
+        <a href="#application-form" class="btn btn-white btn-lg"
+          >Start Your Application <i class="fas fa-arrow-right"></i
+        ></a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-brand">
+          <span class="brand-icon"><i class="fas fa-headset"></i></span>
+          <span>BteckJobs</span>
+          <p>"We train. We assess. We match."</p>
+        </div>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#how-it-works">How It Works</a>
+          <a href="#roles">Customer Support Roles</a>
+          <a href="#application-form">Apply</a>
+        </div>
+      </div>
+      <div class="footer-bottom container">
+        <span>© <span id="year"></span> BteckJobs. All rights reserved.</span>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+      /* ============================================
+   BTECKJOBS - MAIN JAVASCRIPT
+   Vanilla JS + EmailJS Integration
+   ============================================ */
+
+      /* ============================================
+   EMAILJS CONFIGURATION
+   ============================================ */
+      // IMPORTANT: Replace these placeholder values with your actual EmailJS credentials
+      // You can find these in your EmailJS dashboard (https://dashboard.emailjs.com/)
+      const EMAILJS_PUBLIC_KEY = "tz5L79WAjcVsaV_61"; // e.g., "xXxXxXxXxXxXxXx"
+      const EMAILJS_SERVICE_ID = "service_bp8sxyf"; // e.g., "service_abc123"
+
+      // Template IDs - You need TWO templates in EmailJS
+      const EMAILJS_TEMPLATE_ID = "template_alsbkvr"; // Admin notification template
+      const EMAILJS_AUTOREPLY_TEMPLATE_ID = "template_jrtevuo"; // Auto-reply to applicant
+
+      // Initialize EmailJS with your public key
+      (function () {
+        if (EMAILJS_PUBLIC_KEY !== "YOUR_PUBLIC_KEY") {
+          emailjs.init(EMAILJS_PUBLIC_KEY);
+          console.log("EmailJS initialized");
+        } else {
+          console.warn("EmailJS not configured - please add your credentials");
+        }
+      })();
+
+      // ============================================
+      // DOM ELEMENT SELECTORS
+      // ============================================
+      const navbar = document.getElementById("navbar");
+      const hamburger = document.getElementById("hamburger");
+      const navLinks = document.querySelector(".nav-links");
+      const heroCarousel = document.getElementById("heroCarousel");
+      const carouselDots = document.getElementById("carouselDots");
+      const slides = document.querySelectorAll(".hero-slide");
+      const dots = document.querySelectorAll(".carousel-dots .dot");
+      const applicantForm = document.getElementById("applicantForm");
+      const formPanel = document.getElementById("formPanel");
+      const successPanel = document.getElementById("successPanel");
+      const submitBtn = document.getElementById("submitBtn");
+      const resetFormBtn = document.getElementById("resetFormBtn");
+
+      // ============================================
+      // NAVIGATION
+      // ============================================
+      // Scroll effect for navbar
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 50) {
+          navbar.classList.add("scrolled");
+        } else {
+          navbar.classList.remove("scrolled");
+        }
+      });
+
+      // Mobile hamburger menu
+      hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+        navLinks.classList.toggle("active");
+
+        const isExpanded = hamburger.classList.contains("active");
+        hamburger.setAttribute("aria-expanded", isExpanded);
+      });
+
+      // Close mobile menu when a link is clicked
+      document.querySelectorAll(".nav-links a").forEach((link) => {
+        link.addEventListener("click", () => {
+          hamburger.classList.remove("active");
+          navLinks.classList.remove("active");
+          hamburger.setAttribute("aria-expanded", "false");
+        });
+      });
+
+      // Smooth scroll for all anchor links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          const targetId = this.getAttribute("href");
+          if (targetId === "#") return;
+
+          const targetElement = document.querySelector(targetId);
+          if (targetElement) {
+            e.preventDefault();
+            targetElement.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          }
+        });
+      });
+
+      // ============================================
+      // HERO CAROUSEL
+      // ============================================
+      let currentSlide = 0;
+      let carouselInterval;
+      const slideDuration = 5500; // 5.5 seconds
+      let isPaused = false;
+      let userInteracted = false;
+      let resumeTimeout;
+
+      function goToSlide(index) {
+        // Remove active class from all slides and dots
+        slides.forEach((slide) => slide.classList.remove("active"));
+        dots.forEach((dot) => dot.classList.remove("active"));
+
+        // Add active class to current slide and dot
+        slides[index].classList.add("active");
+        dots[index].classList.add("active");
+
+        currentSlide = index;
+      }
+
+      function nextSlide() {
+        const next = (currentSlide + 1) % slides.length;
+        goToSlide(next);
+      }
+
+      function startCarousel() {
+        if (carouselInterval) clearInterval(carouselInterval);
+
+        // Respect reduced motion preference
+        const prefersReducedMotion = window.matchMedia(
+          "(prefers-reduced-motion: reduce)",
+        ).matches;
+
+        if (!prefersReducedMotion && !isPaused) {
+          carouselInterval = setInterval(nextSlide, slideDuration);
+        }
+      }
+
+      function pauseCarousel() {
+        isPaused = true;
+        if (carouselInterval) {
+          clearInterval(carouselInterval);
+          carouselInterval = null;
+        }
+      }
+
+      function resumeCarousel() {
+        isPaused = false;
+        startCarousel();
+      }
+
+      // Pause on user interaction
+      heroCarousel.addEventListener("mouseenter", () => {
+        userInteracted = true;
+        pauseCarousel();
+      });
+
+      heroCarousel.addEventListener("mouseleave", () => {
+        userInteracted = false;
+        resumeCarousel();
+      });
+
+      heroCarousel.addEventListener("touchstart", () => {
+        userInteracted = true;
+        pauseCarousel();
+      });
+
+      heroCarousel.addEventListener("touchend", () => {
+        userInteracted = false;
+        // Resume after a short delay
+        clearTimeout(resumeTimeout);
+        resumeTimeout = setTimeout(resumeCarousel, 2000);
+      });
+
+      // Dot navigation
+      dots.forEach((dot, index) => {
+        dot.addEventListener("click", () => {
+          goToSlide(index);
+          pauseCarousel();
+
+          // Resume after user interaction
+          clearTimeout(resumeTimeout);
+          resumeTimeout = setTimeout(resumeCarousel, 5000);
+        });
+      });
+
+      // Keyboard navigation for carousel
+      heroCarousel.addEventListener("keydown", (e) => {
+        if (e.key === "ArrowLeft") {
+          e.preventDefault();
+          const prev = (currentSlide - 1 + slides.length) % slides.length;
+          goToSlide(prev);
+          pauseCarousel();
+          clearTimeout(resumeTimeout);
+          resumeTimeout = setTimeout(resumeCarousel, 5000);
+        } else if (e.key === "ArrowRight") {
+          e.preventDefault();
+          nextSlide();
+          pauseCarousel();
+          clearTimeout(resumeTimeout);
+          resumeTimeout = setTimeout(resumeCarousel, 5000);
+        }
+      });
+
+      // Initialize carousel
+      goToSlide(0);
+      startCarousel();
+
+      // ============================================
+      // SCROLL REVEAL ANIMATIONS (Intersection Observer)
+      // ============================================
+      const revealElements = document.querySelectorAll(".reveal");
+
+      const revealObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("visible");
+              // Optionally unobserve after reveal for performance
+              revealObserver.unobserve(entry.target);
+            }
+          });
+        },
+        {
+          threshold: 0.1,
+          rootMargin: "0px 0px -50px 0px",
+        },
+      );
+
+      revealElements.forEach((element) => {
+        revealObserver.observe(element);
+      });
+
+      // ============================================
+      // FORM VALIDATION
+      // ============================================
+      function validateField(field, errorElement, validationFn) {
+        const value = field.value.trim();
+        const isValid = validationFn(value);
+
+        if (!isValid) {
+          field.classList.add("error");
+          errorElement.classList.add("show");
+          return false;
+        } else {
+          field.classList.remove("error");
+          errorElement.classList.remove("show");
+          return true;
+        }
+      }
+
+      function validateName(name) {
+        return name.length >= 2;
+      }
+
+      function validateEmail(email) {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+      }
+
+      function validatePhone(phone) {
+        // Basic phone validation - at least 7 characters
+        return phone.length >= 7;
+      }
+
+      function validateCountry(country) {
+        return country !== "";
+      }
+
+      function validateRole(role) {
+        return role !== "";
+      }
+
+      function validateForm() {
+        const fullName = document.getElementById("fullName");
+        const email = document.getElementById("email");
+        const phone = document.getElementById("phone");
+        const country = document.getElementById("country");
+        const role = document.getElementById("role");
+
+        const nameError = document.getElementById("nameError");
+        const emailError = document.getElementById("emailError");
+        const phoneError = document.getElementById("phoneError");
+        const countryError = document.getElementById("countryError");
+        const roleError = document.getElementById("roleError");
+
+        const isNameValid = validateField(fullName, nameError, validateName);
+        const isEmailValid = validateField(email, emailError, validateEmail);
+        const isPhoneValid = validateField(phone, phoneError, validatePhone);
+        const isCountryValid = validateField(
+          country,
+          countryError,
+          validateCountry,
+        );
+        const isRoleValid = validateField(role, roleError, validateRole);
+
+        return (
+          isNameValid &&
+          isEmailValid &&
+          isPhoneValid &&
+          isCountryValid &&
+          isRoleValid
+        );
+      }
+
+      // Real-time validation on blur
+      document.getElementById("fullName").addEventListener("blur", function () {
+        validateField(this, document.getElementById("nameError"), validateName);
+      });
+
+      document.getElementById("email").addEventListener("blur", function () {
+        validateField(
+          this,
+          document.getElementById("emailError"),
+          validateEmail,
+        );
+      });
+
+      document.getElementById("phone").addEventListener("blur", function () {
+        validateField(
+          this,
+          document.getElementById("phoneError"),
+          validatePhone,
+        );
+      });
+
+      document
+        .getElementById("country")
+        .addEventListener("change", function () {
+          validateField(
+            this,
+            document.getElementById("countryError"),
+            validateCountry,
+          );
+        });
+
+      document.getElementById("role").addEventListener("change", function () {
+        validateField(this, document.getElementById("roleError"), validateRole);
+      });
+
+      // ============================================
+      // FORM SUBMISSION WITH EMAILJS
+      // ============================================
+      applicantForm.addEventListener("submit", async function (e) {
+        e.preventDefault();
+
+        // Validate form
+        if (!validateForm()) {
+          // Scroll to first error
+          const firstError = document.querySelector(".error-message.show");
+          if (firstError) {
+            firstError
+              .closest(".form-group")
+              .querySelector("input, select")
+              ?.focus();
+          }
+          return;
+        }
+
+        // Disable submit button and show loading state
+        submitBtn.disabled = true;
+        const btnText = submitBtn.querySelector(".btn-text");
+        const btnLoader = submitBtn.querySelector(".btn-loader");
+
+        btnText.style.display = "none";
+        btnLoader.style.display = "inline-flex";
+
+        // Prepare template parameters
+        const templateParams = {
+          from_name: document.getElementById("fullName").value.trim(),
+          from_email: document.getElementById("email").value.trim(),
+          phone: document.getElementById("phone").value.trim(),
+          country: document.getElementById("country").value,
+          role: document.getElementById("role").value,
+          to_email: document.getElementById("email").value.trim(), // For auto-reply recipient
+          to_name: document.getElementById("fullName").value.trim(), // For auto-reply greeting
+        };
+
+        try {
+          // Check if EmailJS is configured
+          if (EMAILJS_PUBLIC_KEY === "YOUR_PUBLIC_KEY") {
+            throw new Error(
+              "EmailJS credentials not configured. Please add your keys in script.js",
+            );
+          }
+
+          // Send both emails simultaneously using Promise.all
+          const [notificationResult, autoReplyResult] = await Promise.all([
+            // Send notification email to admin
+            emailjs.send(
+              EMAILJS_SERVICE_ID,
+              EMAILJS_TEMPLATE_ID,
+              templateParams,
+            ),
+            // Send auto-reply email to applicant
+            emailjs.send(
+              EMAILJS_SERVICE_ID,
+              EMAILJS_AUTOREPLY_TEMPLATE_ID,
+              templateParams,
+            ),
+          ]);
+
+          console.log("Notification sent:", notificationResult);
+          console.log("Auto-reply sent:", autoReplyResult);
+
+          // Show success state
+          showSuccessPanel();
+
+          // Reset form
+          applicantForm.reset();
+        } catch (error) {
+          console.error("EmailJS Error:", error);
+
+          // More detailed error message
+          let errorMessage = "There was an error submitting your application. ";
+
+          if (error.text) {
+            // EmailJS specific error
+            errorMessage += error.text;
+          } else if (
+            error.message &&
+            error.message.includes("not configured")
+          ) {
+            errorMessage = error.message;
+          } else {
+            errorMessage += "Please try again or contact support.";
+          }
+
+          // Show error message
+          alert(errorMessage);
+
+          // Restore button state
+          submitBtn.disabled = false;
+          btnText.style.display = "inline";
+          btnLoader.style.display = "none";
+        }
+      });
+
+      // Show success panel
+      function showSuccessPanel() {
+        // Hide form
+        formPanel.style.display = "none";
+
+        // Show success panel
+        successPanel.style.display = "block";
+
+        // Scroll to success panel
+        successPanel.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+
+      // Reset form button
+      resetFormBtn.addEventListener("click", () => {
+        // Hide success panel
+        successPanel.style.display = "none";
+
+        // Show form
+        formPanel.style.display = "block";
+
+        // Reset form
+        applicantForm.reset();
+
+        // Clear any validation states
+        document
+          .querySelectorAll(".error-message")
+          .forEach((el) => el.classList.remove("show"));
+        document
+          .querySelectorAll(".form-group input, .form-group select")
+          .forEach((el) => el.classList.remove("error"));
+
+        // Restore submit button
+        submitBtn.disabled = false;
+        const btnText = submitBtn.querySelector(".btn-text");
+        const btnLoader = submitBtn.querySelector(".btn-loader");
+        btnText.style.display = "inline";
+        btnLoader.style.display = "none";
+
+        // Scroll to form
+        formPanel.scrollIntoView({ behavior: "smooth", block: "center" });
+      });
+
+      // ============================================
+      // FOOTER YEAR
+      // ============================================
+      document.getElementById("year").textContent = new Date().getFullYear();
+
+      // ============================================
+      // KEYBOARD ACCESSIBILITY FOR CAROUSEL
+      // ============================================
+      // Add tabindex to carousel for keyboard navigation
+      heroCarousel.setAttribute("tabindex", "0");
+      heroCarousel.setAttribute(
+        "aria-label",
+        "Hero carousel - use arrow keys to navigate",
+      );
+    </script>
+  </body>
+</html>
